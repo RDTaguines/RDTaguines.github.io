@@ -1,0 +1,179 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    button:hover{
+    transform: scale(1.2);
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+h2{
+    color: #14213D;
+    font-size: 30px;
+}
+/*** Navbar ***/
+.nav-item:hover{
+    background-color: #fcc729;
+}
+.dropdown-menu a:hover{
+    background-color: #14213D;
+    color: #fff;
+}
+/*** Featured ***/
+.featured img{
+    height: 200px;
+    width: 200px;
+}
+/*** Company ***/
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+/*** Testimonial ***/
+.carousel-control-prev, .carousel-control-next{
+    background: transparent;
+}
+.image-area{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-area img{
+    width: 100%;
+}
+.carousel-caption{
+    position: static;
+    padding: 15px 0px;
+}
+.carousel-caption h3{
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.carousel-caption h4{
+    font-size: 20px;
+}
+.carousel-caption p{
+    font-size: 15px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.carousel-indicators{
+    bottom: -10px;
+}
+
+/*** Footer ***/
+.copyright a{
+    color: #fff;
+}
+/*** Team ***/
+.team-section img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+/*** Contact ***/
+.form{
+    display: inline-block;
+    width:1000px;
+    height:500px;
+    padding-top: 50px 0px;
+}
+    .name {
+        height: 50px;
+        width: 50%;
+        margin: 20px 0px;
+    }
+    .email{
+        height: 50px;
+        width: 50%;
+        margin: 20px 0px;
+    }
+    .message{
+        height: 300px;
+        width: 50%;
+        margin: 20px 0px;
+    }
+/*** FAQ ***/
+.faq{
+    margin: auto;
+    width:50%
+}
+/*** Pricing ***/
+.pricing-view{
+    padding-left: 90px;
+}
+
+@media all and(max-width:480){
+    /*** index-page ***/
+        .hero-section{
+            width: 100%;
+            flex-direction: column;
+        }
+        .companies{
+            width: auto;
+            margin: 0%;
+            padding: 0%;
+            display: inline-block;
+        }
+        .benefits img{
+            width: 100%;
+        }
+        .footer{
+            width: 100%;
+        }
+        
+    /*** about-page ***/
+        .top-section{
+            width: 100%;
+            display: block;
+        }
+        /*** Pricing ***/
+        .pricing-view{
+            width: 100%;
+            display: block;
+        }       
+    }
+
+@media all and(max-width:576){
+/*** index-page ***/
+    .hero-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .companies{
+        width: auto;
+        margin: 0%;
+        padding: 0%;
+        display: inline-block;
+    }
+    .benefits img{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    
+/*** about-page ***/
+    .top-section{
+        width: 100%;
+        display: block;
+    }
+
+}
+
+@media all and(max-width:768){
+    .logo{
+        width: 100%;
+    }
+    .top-section{
+        width: 100%;
+        display: block;
+    }
+}
