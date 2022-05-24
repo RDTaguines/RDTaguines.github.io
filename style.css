@@ -114,7 +114,10 @@ h2{
     /*** index-page ***/
         .hero-section{
             width: 100%;
-            flex-direction: column;
+            position: relative;
+        }
+        .hero-header h1{
+            font-size: 20px;
         }
         .companies{
             width: 100%;
@@ -177,5 +180,8 @@ h2{
     .top-section{
         width: 100%;
         display: block;
+    }
+    .footer{
+        width: 100%;
     }
 }
