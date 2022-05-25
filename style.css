@@ -5,10 +5,6 @@
     button:hover, .btn:hover{
     transform: scale(1.2);
 }
-h2{
-    color: #14213D;
-    font-size: 30px;
-}
 /*** Navbar ***/
 .nav-item:hover{
     background-color: #fcc729;
