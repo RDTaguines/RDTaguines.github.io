@@ -103,14 +103,20 @@
 }
 
 @media all and(max-width:320){
-
+/*** contact-page ***/
+    .contact{
+        display: block;
+        margin: 0%;
+    }
+    #contactForm{
+        width: 100%;
+        }
+    }
 /*** about-page ***/
     .story-section{
         width: 100%;
         display: table-caption;
     }
-    
-}
 
 @media all and(max-width:480){
     html, body{
@@ -145,14 +151,22 @@
         width: 100%;
         display: block;
     }
-    /*** Pricing ***/
+/*** Pricing ***/
     .pricing-view{
         width: 100%;
         display: block;
         padding: 0%;
         margin: 0%;
-    }       
-}
+    }   
+    /*** contact-page ***/
+    .contact{
+        margin: 0%;
+    }
+    #contactForm{
+        width: 100%;
+        }
+    }    
+
 
 @media all and(max-width:576){
 /*** index-page ***/
