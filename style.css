@@ -13,6 +13,9 @@
     background-color: #14213D;
     color: #fff;
 }
+.nav-item .dropdown .dropdown-item:active {
+    background-color: #14213D !important;
+}
 /*** Featured ***/
 .featured img{
     height: 200px;
