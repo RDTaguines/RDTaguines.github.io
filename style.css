@@ -31,7 +31,7 @@
     width: 100px;
     height: 100px;
     margin: auto;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -97,10 +97,6 @@
     margin: auto;
     width:50%
 }
-/*** Pricing ***/
-.pricing-view{
-    padding-left: 90px;
-}
 
 @media all and(max-width:320){
 /*** contact-page ***/
@@ -111,11 +107,6 @@
     #contactForm{
         width: 100%;
         }
-    }
-/*** about-page ***/
-    .story-section{
-        width: 100%;
-        display: table-caption;
     }
 
 @media all and(max-width:480){
@@ -133,12 +124,7 @@
         font-size: 50px;
         text-align: center;
     }
-    .companies{
-        width: 100%;
-        margin: 0%;
-        padding: 0%;
-        text-align: center;
-    }
+
     .benefits img{
         width: 100%;
     }
@@ -151,13 +137,6 @@
         width: 100%;
         display: block;
     }
-/*** Pricing ***/
-    .pricing-view{
-        width: 100%;
-        display: block;
-        padding: 0%;
-        margin: 0%;
-    }   
     /*** contact-page ***/
     .contact{
         margin: 0%;
@@ -166,7 +145,6 @@
         width: 100%;
         }
     }    
-
 
 @media all and(max-width:576){
 /*** index-page ***/
