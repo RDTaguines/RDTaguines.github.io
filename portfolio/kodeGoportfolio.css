@@ -293,69 +293,6 @@ ul {
     }
 
 
-@media all and (max-width: 467px){
-    .main-container{
-        width: 100%
-    }
-    ul{
-        background-color: #ddb7ab;
-    }
-    li a{
-        float: none;
-        text-align: center;
-    }
-    li a.active {
-        background-color: #ddb7ab ;
-    }
-        li a:hover:not(.active) {
-        background-color: #E29578;
-        color: #fff;
-    }
-    .hero-section, .aboutme{
-        width: 100%;
-        margin: 0;
-        height: auto;
-        padding: 0px;
-        text-align: center;
-    }
-    .content{
-        width:100%;
-        margin:0%;
-        padding:0%
-    }
-    #myProjects{
-        width: 100%;
-        margin: 0;
-        display: block;
-        height: auto;
-        padding: 0px;
-        text-align: center;
-    }
-    .project, .project-below{
-        display: inline-block;
-        justify-content: center;
-        margin:0%;
-        height: auto;
-        padding: 0px;
-    }
-    .programs{
-        display: none;
-    }
-    .contact-info, .form{
-        display: block;
-        width:100%;
-    }
-        #submit{
-            display: block;
-            margin-left: 130px;
-        }
-    #footer{
-        display: block;
-        width: 100%;
-        margin-top: 400px;
-        height: 150px;
-    }
-}   
 
 @media all and (max-width: 576px){
     .main-container{
