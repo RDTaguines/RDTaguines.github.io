@@ -5,6 +5,7 @@
     button:hover, .btn:hover{
     transform: scale(1.2);
 }
+
 /*** Navbar ***/
 .nav-item:hover{
     background-color: #fcc729;
@@ -13,16 +14,19 @@
     background-color: #14213D;
     color: #fff;
 }
+
 /*** Featured ***/
 .featured img{
     height: 200px;
     width: 200px;
 }
+
 /*** Company ***/
 .logo img{
     height: 100px;
     width: 100px;
 }
+
 /*** Testimonial ***/
 .carousel-control-prev, .carousel-control-next{
     background: transparent;
@@ -64,124 +68,35 @@
 .copyright a{
     color: #fff;
 }
+
 /*** Team ***/
 .team-section img{
     width: 200px;
     height: 200px;
     align-self: center;
 }
+
 /*** Contact ***/
-.form{
-    display: inline-block;
-    width:1000px;
-    height:500px;
-    padding-top: 50px 0px;
+.name {
+    height: 50px;
+    width: 50%;
+    margin: 20px 0px;
 }
-    .name {
-        height: 50px;
-        width: 50%;
-        margin: 20px 0px;
-    }
-    .email{
-        height: 50px;
-        width: 50%;
-        margin: 20px 0px;
-    }
-    .message{
-        height: 300px;
-        width: 50%;
-        margin: 20px 0px;
-    }
+.email{
+    height: 50px;
+    width: 50%;
+    margin: 20px 0px;
+}
+.message{
+    height: 300px;
+    width: 50%;
+    margin: 20px 0px;
+}
+
 /*** FAQ ***/
 .faq{
     margin: auto;
     width:50%
 }
 
-@media all and(max-width:320){
-/*** contact-page ***/
-    .contact{
-        display: block;
-        margin: 0%;
-    }
-    #contactForm{
-        width: 100%;
-        }
-    }
 
-@media all and(max-width:480){
-    html, body{
-        overflow: hidden;
-    }
-/*** index-page ***/
-    .hero-section{
-        width: 100%;
-        position: relative;
-    }
-    .hero-header h1{
-        position: relative;
-        width: 80%;
-        font-size: 50px;
-        text-align: center;
-    }
-
-    .benefits img{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-    }
-
-/*** about-page ***/
-    .top-section{
-        width: 100%;
-        display: block;
-    }
-    /*** contact-page ***/
-    .contact{
-        margin: 0%;
-    }
-    #contactForm{
-        width: 100%;
-        }
-    }    
-
-@media all and(max-width:576){
-/*** index-page ***/
-    .hero-section{
-        width: 100%;
-        flex-direction: column;
-    }
-    .companies{
-        width: auto;
-        margin: 0%;
-        padding: 0%;
-        display: inline-block;
-    }
-    .benefits img{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-    }
-    
-/*** about-page ***/
-    .top-section{
-        width: 100%;
-        display: block;
-    }
-
-}
-
-@media all and(max-width:768){
-    .logo{
-        width: 100%;
-    }
-    .top-section{
-        width: 100%;
-        display: block;
-    }
-    .footer{
-        width: 100%;
-    }
-}
